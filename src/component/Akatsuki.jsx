@@ -40,20 +40,7 @@ function Akatsuki() {
           )}
         </div>
       )}
-      <div className='flex justify-between p-4'>
-        <button
-          className='h-12 w-[100px] bg-blue-600 hover:bg-blue-500 text-white rounded transition'
-          onClick={() => setPage(page > 1 ? page - 1 : 1)}
-        >
-          Prev
-        </button>
-        <button
-          className='h-12 w-[100px] bg-blue-600 hover:bg-blue-500 text-white rounded transition'
-          onClick={() => setPage(page + 1)}
-        >
-          Next
-        </button>
-      </div>
+      
     </div>
   );
 }
