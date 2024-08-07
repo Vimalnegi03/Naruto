@@ -1,0 +1,15 @@
+.image-text {
+    background-image: url('../assets/Images/Home.jpg');
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .right{
+    position: relative;
+    margin-left: 776px;
+    top: 46px;
+  }
+  .left{
+    margin-left: 1000px;
+
+  }

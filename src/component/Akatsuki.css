@@ -1,0 +1,6 @@
+.image-text {
+    background-image: url('../assets/Images/aktuski.webp');
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
