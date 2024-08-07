@@ -1,6 +1,27 @@
+/* Akatsuki.css */
 .image-text {
-    background-image: url('../assets/Images/aktuski.webp');
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.bg-cover {
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .text-4xl {
+    font-size: 2rem;
   }
+  .text-6xl {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-4xl {
+    font-size: 4rem;
+  }
+  .text-6xl {
+    font-size: 6rem;
+  }
+}
