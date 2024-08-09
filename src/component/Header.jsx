@@ -1,19 +1,22 @@
 import React from 'react';
 import logo from '../assets/Images/logo.jpg';
 import { Link } from 'react-router-dom';
-import "./Akatsuki.css";
-import "./Home.css";
 
 function Header() {
   return (
-    <div className='bg-blue-950 h-1/6 w-full flex flex-col sm:flex-row justify-between items-center p-4 sm:p-6'>
-      <img src={logo} alt="Logo" className='h-16 w-16 mb-4 sm:mb-0' />
-      <div className='flex flex-col sm:flex-row justify-around space-y-4 sm:space-y-0 sm:space-x-10 text-xl sm:text-2xl lg:text-4xl text-white font-mono tracking-wider'>
-        <Link to="/kara" className='hover:text-blue-400'>Kara</Link>
-        <Link to="/home" className='hover:text-blue-400'>Home</Link>
-        <Link to="/akatsuki" className='hover:text-blue-400'>Akatsuki</Link>
+    <header className="bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 py-4 px-6 shadow-lg">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
+        <div className="flex items-center mb-4 sm:mb-0">
+          <img src={logo} alt="Logo" className="h-20 w-20 rounded-full border-2 border-white shadow-lg" />
+          <h1 className="text-white text-3xl sm:text-4xl font-bold ml-4 tracking-wider">Ninja World</h1>
+        </div>
+        <nav className="flex space-x-6 text-lg sm:text-xl lg:text-2xl font-semibold text-white">
+          <Link to="/kara" className="hover:text-yellow-400 transition-colors duration-300">Kara</Link>
+          <Link to="/home" className="hover:text-yellow-400 transition-colors duration-300">Home</Link>
+          <Link to="/akatsuki" className="hover:text-yellow-400 transition-colors duration-300">Akatsuki</Link>
+        </nav>
       </div>
-    </div>
+    </header>
   );
 }
 
