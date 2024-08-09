@@ -10,7 +10,7 @@ function Akatsuki() {
 
   async function downloadCharacters() {
     try {
-      const response = await axios.get(`https://narutodb.xyz/api/akatsuki?${page}&limit=10`);
+      const response = await axios.get(`https://narutodb.xyz/api/akatsuki?${page}&limit=44`);
       const promiseData = response.data.akatsuki;
       const data = await axios.all(promiseData);
       setCharacters(data);
