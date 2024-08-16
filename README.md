@@ -40,7 +40,7 @@ Running the Application
   npm run dev
 ```
 
-### 🌐 Pages
+### 🌐 Components
 
 #### Home Page
 - **Content**: Displays all the Naruto characters.
