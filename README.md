@@ -1,4 +1,6 @@
 # 🎌 Naruto Character Explorer
+<img src="https://th.bing.com/th/id/OIP.tUMd15y-qFo5lKHT-xRSPAAAAA?pid=ImgDet&w=179&h=268&c=7&dpr=1.3" />
+
 
 > **Naruto Character Explorer** is a React application built with Vite that allows users to explore characters from one of the most famous anime series, Naruto. The app features three main pages: Home, KARA, and AKATSUKI, each showcasing different characters from the series. Data is fetched using Axios, and the UI is styled for responsiveness with Tailwind CSS.
 
